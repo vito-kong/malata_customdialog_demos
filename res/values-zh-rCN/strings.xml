@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">哈喽沃尔德</string>
+    <string name="app_name">自定义对话框</string>
+    
+	<!-- Content description for the Toolbar icon used to collapse an expanded action mode. [CHAR LIMIT=NONE] -->
+	<!-- kongtianhao add 20150727 for shorcutbar test begin -->
+    <string name="test_wifi_str">WLAN</string>
+    <string name="test_data_conection_str">数据连接</string>
+    <string name="test_airplane_str">飞行模式</string>
+    <string name="test_flashlight_str">手电</string>
+    <string name="test_bluetooth_str">蓝牙</string>
+    <string name="test_location_str">位置</string>
+    <string name="test_cast_str">投射屏幕</string>
+    <string name="test_inversion_str">颜色反转</string>
+    <string name="test_hotspot_str">热点</string>
+    <string name="test_rotation_str">屏幕方向</string>
+    <string name="test_meeting_str">振动模式</string>
+    <string name="test_turbokey_str">一键加速</string>	
+    <string name="no_runningapp_str">没有正在后台运行的程序</string>	
+	<!-- Content description of the display brightness slider (not shown on the screen). [CHAR LIMIT=NONE] -->    
+	<string name="accessibility_brightness_str">快捷栏的亮度调节</string>
+	<!-- kongtianhao add 20150727 for shorcutbar test end -->
+
+</resources>

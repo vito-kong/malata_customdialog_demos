@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ShortcutDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/ShortcutDialogAnim</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:height">240dp</item>
+        
+        <item name="android:windowBackground">@color/testcolor</item>
+    </style>
+
+    <style name="ShortcutDialogAnim">
+        <item name="android:windowEnterAnimation">@anim/push_shortcut_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_shortcut_down_out</item>
+    </style>
+
+</resources>
